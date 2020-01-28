@@ -1,0 +1,11 @@
+%%mocodo
+:
+CUSTOMER: Id, email, lastName, firstName, adress, postal code, phoneNumber, createdAt, updatedAt
+:
+ORDER: Id, number, amount, createdAt, updatedAt, #Id_customer->CUSTOMER->Id
+:
+
+:
+ARTICLE: Id, designation, price, description, createdAt, updatedAt
+:
+ARTICLE_ORDER: #Id_order->ORDER->Id, _#Id_article->ARTICLE->Id

@@ -1,0 +1,7 @@
+CUSTOMER: email, lastName, firstName, adress, postal code, phoneNumber, createdAt, updatedAt
+PASSED, 1N CUSTOMER, 11 ORDER
+ORDER: number, amount, createdAt, updatedAt
+
+:
+ARTICLE: designation, price, description, createdAt, updatedAt
+CONTENT, 1N ORDER, ON ARTICLE
