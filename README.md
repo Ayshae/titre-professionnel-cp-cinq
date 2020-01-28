@@ -10,7 +10,6 @@ Les contraintes d'utilisation qui nous permettent de créer le MCD :
     2. une commande peut contenir un ou plusieurs articles. Chaque commande a une date.
     3. Le modèle doit permettre de retrouver toutes les commandes d'un client et composition de chaque commande.
 
-## Technologies utilisée
 
 Documents produits :
 
